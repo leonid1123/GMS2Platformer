@@ -1,0 +1,10 @@
+draw_self();
+draw_text(x,y-120,"Idle:"+string(idle));
+draw_text(x,y-140,"Walk:"+string(walk));
+draw_text(x,y-160,"Death:"+string(death));
+draw_text(x,y-180,"Hit:"+string(hit));
+draw_text(x,y-200,"WTP:"+string(walkToPlayer));
+draw_text(x,y-220,"HP:"+string(hp));
+draw_text(x,y-240,"dst:"+string(dst));
+draw_text(x,y-260,"pl:"+string(pl));
+draw_line(x,y-32,oPlayer.x,oPlayer.y-32);
