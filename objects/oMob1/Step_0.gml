@@ -93,6 +93,7 @@ sprite_index=sDeath;
 }
 
 if (walkToPlayer==1) {
+	sprite_index = sWalk;
 	var whereToGo = oPlayer.x-x;
 	if (whereToGo>0) {
 		dir=1;
@@ -101,13 +102,6 @@ if (walkToPlayer==1) {
 		dir=-1;
 	}
 	hsp = dir*0.9;
-	/*
-	if (dir>0) {
-		image_xscale = 1;	
-	} else if (dir<0) {
-		image_xscale = -1;	
-	}
-	*/
 }
 
 
