@@ -47,8 +47,6 @@ walkToPlayer = 0;
 idle=1;
 }
 
-
-
 //damege from player
 if (canHit==1 && place_meeting(x,y,oPlayer) && oPlayer.sprite_index==sPlayerAttack1 && floor(oPlayer.image_index)=2) {
 hsp=0;
@@ -61,26 +59,18 @@ sprite_index = sHit;
 canHit=0;
 }
 
-
 if (idle ==1) {
 	sprite_index = sIdle;
 	hsp=0;
 }
 
 if (walk=1) {
-	
 	sprite_index = sWalk;
 	hsp = 0.5*dir;
-	if (place_meeting(x+dir,y,oWall) || !place_meeting(x+dir*25,y+1,oWall)) {
+	if (place_meeting(x+dir,y,oWall) || !place_meeting(x+dir*25,y+1,oWall))
+	{
 		dir = -dir;	
 	}
-	/*
-	if (dir>0) {
-		image_xscale = 1;	
-	} else if (dir<0) {
-		image_xscale = -1;	
-	}
-	*/
 }
 
 if (hp<=0) {
@@ -103,8 +93,3 @@ if (walkToPlayer==1) {
 	}
 	hsp = dir*0.9;
 }
-
-
-
-
-

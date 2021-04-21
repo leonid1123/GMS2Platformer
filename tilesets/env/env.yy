@@ -1,5 +1,4 @@
 {
-  "name": "env",
   "spriteId": {
     "name": "Sprite4",
     "path": "sprites/Sprite4/Sprite4.yy",
@@ -359,6 +358,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "env",
   "tags": [],
   "resourceType": "GMTileSet",
 }

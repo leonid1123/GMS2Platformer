@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sCoin",
+    "path": "sprites/sCoin/sCoin.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

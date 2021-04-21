@@ -7,3 +7,6 @@ idle = 1;
 walk = 0;
 air = 0;
 attack = 0;
+
+hp=3;
+maxHp=5;
