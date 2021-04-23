@@ -24,6 +24,7 @@
     {"id":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},"order":4,},
     {"id":{"name":"sPotion","path":"sprites/sPotion/sPotion.yy",},"order":8,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
+    {"id":{"name":"oTest","path":"objects/oTest/oTest.yy",},"order":11,},
     {"id":{"name":"oKey","path":"objects/oKey/oKey.yy",},"order":5,},
     {"id":{"name":"sShield","path":"sprites/sShield/sShield.yy",},"order":6,},
     {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"order":5,},
@@ -49,8 +50,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

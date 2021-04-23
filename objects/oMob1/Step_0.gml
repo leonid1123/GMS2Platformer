@@ -47,13 +47,17 @@ walkToPlayer = 0;
 idle=1;
 }
 
-//damege from player
+//damage from player
 if (canHit==1 && place_meeting(x,y,oPlayer) && oPlayer.sprite_index==sPlayerAttack1 && floor(oPlayer.image_index)=2) {
 hsp=0;
-hp-=1;
+
+hp-=(oPlayer.dmg/armor + oPlayer.fireDmg/fireArmor) ;
+
+
 walk=0;
 idle=0;
 attack=0;
+walkToPlayer=0;
 hit=1;
 sprite_index = sHit;
 canHit=0;
@@ -80,6 +84,17 @@ idle=0;
 hit=0;
 death=1;
 sprite_index=sDeath;
+if (create=0) {
+	create=1;
+	randomize();
+	var choise = random(1);
+	if (choise>0.66) {
+		instance_create_layer(x,y-70,"Player",oCoin);
+	} else if (choise>=0.25 && choise<0.75) {
+		instance_create_layer(x,y-70,"Player",oPotion);
+	}
+}
+
 }
 
 if (walkToPlayer==1) {

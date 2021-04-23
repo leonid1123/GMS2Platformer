@@ -18,4 +18,11 @@ canHit=1;
 dst=0;
 pl=0;
 
+create = 0;
+
+//armor
+
+armor=10;
+fireArmor=1;
+
 alarm_set(0,660);

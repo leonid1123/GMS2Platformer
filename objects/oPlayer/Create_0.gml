@@ -10,3 +10,7 @@ attack = 0;
 
 hp=3;
 maxHp=5;
+
+//damage
+dmg = 5;
+fireDmg = 1;

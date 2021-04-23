@@ -1,3 +1,3 @@
-if (canTake ==1) {
+if (canTake == 1) {
 	instance_destroy();
 }
